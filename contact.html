@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact Ugyen Dorji for internships, collaborations and learning opportunities." />
+  <title>Ugyen Dorji | Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ NAVBAR ============ -->
+  <header class="navbar" id="navbar">
+    <a href="index.html" class="logo"><span class="logo-bracket"></span>UD<span class="logo-bracket"></span></a>
+
+    <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="skills.html" class="nav-link">Skills</a>
+      <a href="projects.html" class="nav-link">Projects</a>
+      <a href="education.html" class="nav-link">Education</a>
+      <a href="contact.html" class="nav-link active" aria-current="page">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle light and dark theme">
+        <span class="icon-sun">☀</span><span class="icon-moon">☾</span>
+      </button>
+      <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="section" id="contact">
+      <h2 class="section-title reveal"><span>05.</span> Contact Me</h2>
+      <p class="contact-intro reveal">
+        I'm open to internships, collaborations and learning opportunities. Feel free to reach out!
+      </p>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <a class="contact-item" href="mailto:05250200.jnec@rub.edu.bt">
+            <span>✉</span><div><h4>Email</h4><p id="emailText">05250200.jnec@rub.edu.bt</p></div>
+          </a>
+          <a class="contact-item" href="tel:+97517995037">
+            <span>☎</span><div><h4>Phone</h4><p>+975 17 99 50 37</p></div>
+          </a>
+          <a class="contact-item" href="https://github.com/ugyendorji" target="_blank" rel="noopener">
+            <span>⌥</span><div><h4>GitHub</h4><p>github.com/ugyendorji</p></div>
+          </a>
+          <a class="contact-item" href="https://www.linkedin.com/in/ugyendorji" target="_blank" rel="noopener">
+            <span>in</span><div><h4>LinkedIn</h4><p>linkedin.com/in/ugyendorji</p></div>
+          </a>
+          <div class="contact-item static">
+            <span>📍</span><div><h4>Location</h4><p>Dewathang, Samdrup Jongkhar, Bhutan</p></div>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" />
+            <small class="error"></small>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" />
+            <small class="error"></small>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="What is this about?" />
+            <small class="error"></small>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message..."></textarea>
+            <small class="error"></small>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+          <p class="form-status" id="formStatus" role="status"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+      <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-about">
+        <a href="index.html" class="logo"><span class="logo-bracket"></span>UD<span class="logo-bracket"></span></a>
+        <p>Computer System and Network student at Jigme Namgyel Engineering College, Bhutan.
+          Open to internships, collaborations and learning opportunities.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="mailto:05250200.jnec@rub.edu.bt"><span>✉</span>05250200.jnec@rub.edu.bt</a></li>
+          <li><a href="tel:+97517995037"><span>☎</span>+975 17 99 50 37</a></li>
+          <li><span>📍</span>Dewathang, Samdrup Jongkhar, Bhutan</li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Follow me</h4>
+        <ul>
+          <li><a href="https://github.com/ugyendorji" target="_blank" rel="noopener"><span>⌥</span>GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/ugyendorji" target="_blank" rel="noopener"><span>in</span>LinkedIn</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Pages</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- <p class="footer-bottom">Designed &amp; built by <strong>Ugyen Dorji</strong> · © <span id="year"></span></p> -->
+  </footer>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>

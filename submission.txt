@@ -1,0 +1,42 @@
+PORTFOLIO WEBSITE SUBMISSION
+
+Name:            Ugyen Dorji
+Student number:  [ADD YOUR STUDENT NUMBER]
+Programme:       Computer System and Network (CSN)
+College:         Jigme Namgyel Engineering College, Dewathang
+University:      Royal University of Bhutan
+Module:          [ADD MODULE NAME AND CODE]
+Submitted to:    [ADD LECTURER'S NAME]
+Date:            [ADD SUBMISSION DATE]
+
+LINKS
+Live website:       [ADD YOUR VERCEL LINK]
+GitHub repository:  https://github.com/ugyendorji/portfolio
+
+DESCRIPTION
+A responsive, multi-page personal portfolio website built with HTML, CSS and JavaScript.
+It presents my background, skills, projects, education and contact details.
+
+FEATURES
+- Dark and light theme toggle
+- Mobile navigation menu
+- Skill tabs with animated progress bars
+- Project filtering
+- Scroll animations
+- Contact form with validation
+
+FILES
+index.html      Home page
+about.html      About page
+skills.html     Skills page
+projects.html   Projects page
+education.html  Education and certifications page
+contact.html    Contact page
+style.css       Styles and themes
+script.js       Interactive features
+README.md       Project information
+submission.txt  Submission details
+media/          Images and other media
+
+HOW TO RUN
+Keep all the files in the same folder and open index.html in a web browser.
