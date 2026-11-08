@@ -284,3 +284,34 @@ if (form) {
 
 /* ============ FOOTER YEAR ============ */
 document.getElementById("year").textContent = new Date().getFullYear();
+
+// ===== Profile picture slideshow =====
+(function () {
+  const avatarBox = document.getElementById("avatar");
+  if (!avatarBox) {
+    console.log("Slideshow: no element with id='avatar' found");
+    return;
+  }
+
+  const avatarPics = avatarBox.querySelectorAll("img");
+  console.log("Slideshow: found " + avatarPics.length + " photos");
+  if (avatarPics.length < 2) return;
+
+  let avatarIndex = 0;
+  let avatarTimer = null;
+
+  function showNextPic() {
+    avatarPics[avatarIndex].classList.remove("active");
+    avatarIndex = (avatarIndex + 1) % avatarPics.length;
+    avatarPics[avatarIndex].classList.add("active");
+  }
+
+  function startAvatarSlides() {
+    clearInterval(avatarTimer);
+    avatarTimer = setInterval(showNextPic, 2000);
+  }
+
+  startAvatarSlides();
+  avatarBox.addEventListener("mouseenter", () => clearInterval(avatarTimer));
+  avatarBox.addEventListener("mouseleave", startAvatarSlides);
+})();

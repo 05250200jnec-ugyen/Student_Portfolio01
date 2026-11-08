@@ -1040,3 +1040,27 @@ a.contact-item:hover {
     grid-template-columns: 1fr;
   }
 }
+
+/* Profile slideshow */
+/* .avatar {
+  position: relative;
+}
+
+.avatar img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+/* First image stays in place so the avatar keeps its size */
+/* .avatar img:first-child {
+  position: relative;
+}
+
+.avatar img.active {
+  opacity: 1; */ */
+/* } */
